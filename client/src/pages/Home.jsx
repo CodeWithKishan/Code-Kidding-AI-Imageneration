@@ -97,7 +97,7 @@ const Home = () => {
                 />
               ) : (
                 <RenderCards
-                  data={allPosts}
+                  data={[allPosts]}
                   title="No posts found"
                 />
               )}
